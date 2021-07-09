@@ -1,27 +1,9 @@
-<!DOCTYPE html>
-<html>
-    <head lang="en">
-        <meta charset="UTF-8">
-        <title>GBI</title>
-        <link rel="stylesheet" href="../stylesheets/style.css" type="text/css">
-    </head>
+<?php include_once('../../Private/initialize.php'); ?>
 
-<body>
-    <header>
-        <h1>GBI Staff Area</h1>
-    </header>
-    <navigation>
-        <ul>
-            <li><a href="index.php" target="_blank">Menu</a></li>
-        </ul>
-    </navigation>
+<?php $page_title = 'Staff_Menu'; ?>
+<?php require('../../Private/shared/staff_header.php'); ?>
     <div id="content">
 
     </div>
-    </div>
-    <footer>
-        &copy; <?php echo date('Y');?>
-    </footer>
-</body>
+<?php require('../../Private/shared/staff_footer.php'); ?>
 
-</html>
