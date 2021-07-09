@@ -15,6 +15,10 @@
             <li><a href="index.php" target="_blank">Menu</a></li>
         </ul>
     </navigation>
+    <div id="content">
+
+    </div>
+    </div>
     <footer>
         &copy; <?php echo date('Y');?>
     </footer>
