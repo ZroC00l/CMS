@@ -3,11 +3,11 @@
 }
 ?>
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head >
     <meta charset="UTF-8">
     <title>GBI - <?php echo $page_title ?></title>
-    <link rel="stylesheet" href="../stylesheets/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css"  media="all" href="../stylesheets/style.css" >
 </head>
 
 <body>
@@ -16,6 +16,6 @@
 </header>
 <navigation>
     <ul>
-        <li><a href="index.php" target="_blank">Menu</a></li>
+        <li><a href=" <?php echo WWW_ROOT. '/staff/index.php'; ?> ">Menu</a></li>
     </ul>
 </navigation>
